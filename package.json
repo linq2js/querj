@@ -1,0 +1,38 @@
+{
+  "name": "querj",
+  "version": "1.0.0",
+  "description": "A light weight package for querying by SQL like syntax",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linq2js/querj.git"
+  },
+  "keywords": [
+    "functional",
+    "flux",
+    "javascript",
+    "data",
+    "linq",
+    "es6"
+  ],
+  "author": "linq2js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linq2js/querj/issues"
+  },
+  "homepage": "https://github.com/linq2js/querj#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.4.2"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  }
+}
